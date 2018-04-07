@@ -36,7 +36,3 @@ def findMedianSortedArrays(self, nums1, nums2):
     else:
         return self.list[int(size / 2)]
 
-
-if __name__ == '__main__':
-    y = findMedianSortedArrays([2, 1], [4, 5, 6])
-    print(y)
